@@ -1,0 +1,20 @@
+/* style sheet for the que04 */
+div {
+    margin: 100px;
+}
+
+button{
+    background-color: royalblue;
+    border-radius: 4px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: snow;
+    font-size: 30px;
+
+}
+
+button:hover{
+    box-shadow: 10px 5px 5px grey;
+    cursor: pointer;
+}

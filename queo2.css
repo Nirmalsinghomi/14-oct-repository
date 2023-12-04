@@ -1,0 +1,16 @@
+/* 1st - Using Descendent combination selector  to remove the list style */
+ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* 2nd - using child selector to display the menu list itme inline */
+ ul > li {
+    display: inline;
+ }
+
+ /* use the adjacent sibling combinator selector to apply some margin between the meny list items */
+
+ li + li {
+    margin: 10px;
+ }
